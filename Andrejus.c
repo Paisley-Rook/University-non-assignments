@@ -10,7 +10,7 @@ void loop() {
   //initial 5s pause
   delay(50 * delayTime);
   
-    for (int characterIterator = 0; characterIterator < sizeof(morseLetters); characterIterator++) 
+    for (int characterIterator = 0; characterIterator < sizeof(morseCode); characterIterator++) 
 		{
 			switch(morseCode[characterIterator])
 				{
@@ -21,6 +21,7 @@ void loop() {
 				}
 			delay(delayTime);
 		} 
+		
 }
 
 
